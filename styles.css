@@ -1,0 +1,72 @@
+body{
+        text-align: center;
+        margin: 0;
+        background: #12e01c;
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        
+}
+
+#calculator{
+        max-width: 360px;
+        background-color: blueviolet;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 5);
+
+}
+
+#display{
+        width: 100%;
+        height: 56px;
+        font-size: 20px;
+        text-emphasis: right;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-radius: 5px;
+        color: beige;
+        background-color: blue rgba(13, 27, 42, 0.3);
+        border: none;
+        box-sizing: border-box;
+     }
+
+.operator{
+        color: white;
+}
+#ac{
+        color: red;
+}
+
+.equal{
+        width: calc(50% - 10px);
+}
+
+button{
+        width: calc(25% - 10px);
+        height: 50px;
+        font-size: 20px;
+        margin: 10px 5px;
+        border: none;
+        border-radius: 5px;
+        float: left;
+        background-color: rgb(235, 215, 34);
+        color: white;
+        -webkit-box-shadow: rgb(0, 0,)
+        -webkit-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+        box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+
+}
+
+button:hover{
+      cursor: pointer;
+}
+
+button:active{
+        transform: scale(1.05);
+        box-shadow: 0 24px 4px 1px rgba(0, 0, 0, 0.2);
+
+}       
